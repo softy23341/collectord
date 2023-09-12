@@ -1,0 +1,294 @@
+[
+  {
+    "id": "api.messenger.dialog.empty_message",
+    "translation": "{{ .SenderName }} sent you a message"
+  },
+  {
+    "id": "api.messenger.dialog.object_message",
+    "translation": "{{ .SenderName }} sent you an object"
+  },
+  {
+    "id": "api.messenger.dialog.photo_message",
+    "translation": "{{ .SenderName }} sent you a photo"
+  },
+  {
+    "id": "api.messenger.dialog.document_message",
+    "translation": "{{ .SenderName }} sent you a document"
+  },
+  {
+    "id": "api.messenger.dialog.video_message",
+    "translation": "{{ .SenderName }} sent you a video"
+  },
+  {
+    "id": "New chat created",
+    "translation": "New chat created"
+  },
+  {
+    "id": "api.messenger.dialog.new_invite",
+    "translation": "{{ .SenderName }} invited you to the team"
+  },
+  {
+    "id": "Your invite has been accepted",
+    "translation": "Your invite has been accepted"
+  },
+  {
+    "id": "Your invite has been rejected",
+    "translation": "Your invite has been rejected"
+  },
+  {
+    "id": "Your invite has been cancelled",
+    "translation": "Your invite has been cancelled"
+  },
+  {
+    "id": "api.messenger.dialog.task.created_assigned_to_you",
+    "translation": "The task '{{ .TaskName }}' has been created and assigned to you"
+  },
+  {
+    "id": "api.messenger.dialog.task.status_changed",
+    "translation": "The status of the task '{{ .TaskName }}' has been changed to: {{ .TaskStatus }}"
+  },
+  {
+    "id": "api.messenger.dialog.task.assigned_to_you",
+    "translation": "The task '{{ .TaskName }}' has been assigned to you"
+  },
+  {
+    "id": "api.messenger.dialog.task.assigned_to_user",
+    "translation": "The task '{{ .TaskName }}' has been assigned to someone else"
+  },
+  {
+    "id": "api.messenger.dialog.task.archived",
+    "translation": "The task '{{ .TaskName }}' has been placed to archive"
+  },
+  {
+    "id": "api.messenger.dialog.task.unarchived",
+    "translation": "The task '{{ .TaskName }}' has been retrieved from archive"
+  },
+  {
+    "id": "api.messenger.dialog.task.changed",
+    "translation": "The task '{{ .TaskName }}' has been changed"
+  },
+  {
+    "id": "api.messenger.dialog.task.removed",
+    "translation": "The task '{{ .TaskName }}' has been removed"
+  },
+  {
+    "id": "api.messenger.text",
+    "translation": "{{ .SenderName }} sent a message to the group {{ .ChatName }}"
+  },
+  {
+    "id": "api.messenger.direct_text",
+    "translation": "{{ .SenderName }} at {{ .ChatName }}: {{ .Message }}"
+  },
+  {
+    "id": "api.messenger.media.photo",
+    "translation": "{{ .SenderName }} sent a photo to the group {{ .ChatName }}"
+  },
+  {
+    "id": "api.messenger.media.document",
+    "translation": "{{ .SenderName }} sent a document to the group {{ .ChatName }}"
+  },
+  {
+    "id": "api.messenger.media.video",
+    "translation": "{{ .SenderName }} sent a video to the group {{ .ChatName }}"
+  },
+  {
+    "id": "api.messenger.chat.created",
+    "translation": "{{ .SenderName }} invited you to the group {{ .ChatName }}"
+  },
+  {
+    "id": "api.messenger.chat.title_changed",
+    "translation": "{{ .SenderName }} edited the group's {{ .ChatName }} name"
+  },
+  {
+    "id": "api.messenger.chat.avatar_changed",
+    "translation": "{{ .SenderName }} edited the group's {{ .ChatName }} photo"
+  },
+  {
+    "id": "api.messenger.chat.you_invited",
+    "translation": "{{ .SenderName }} invited you to the group {{ .ChatName }}"
+  },
+  {
+    "id": "api.messenger.chat.user_invited",
+    "translation": "{{ .SenderName }} invited {{ .UserName }} to the group {{ .ChatName }}"
+  },
+  {
+    "id": "api.messenger.chat.you_kicked",
+    "translation": "{{ .SenderName }} kicked you from the group {{ .ChatName }}"
+  },
+  {
+    "id": "api.messenger.chat.user_left",
+    "translation": "{{ .SenderName }} has left the group {{ .ChatName }}"
+  },
+  {
+    "id": "api.messenger.chat.user_kicked",
+    "translation": "{{ .SenderName }} kicked {{ .UserName }} from the group {{ .ChatName }}"
+  },
+  {
+    "id": "New task for you",
+    "translation": "New task for you"
+  },
+  {
+    "id": "api.task.on_you.title",
+    "translation": "{{ .SenderName }} created the new task ({{ .TaskName }}) for you!"
+  },
+  {
+    "id": "The task is not on you now",
+    "translation": "The task is not on you now"
+  },
+  {
+    "id": "api.task.not_on_you.title",
+    "translation": "{{ .SenderName }} removed your task: {{ .TaskName }}"
+  },
+  {
+    "id": "The task is on you",
+    "translation": "The task is on you"
+  },
+  {
+    "id": "api.task.assigned_on_you",
+    "translation": "{{ .SenderName }} assigned the task ({{ .TaskName }}) on you"
+  },
+  {
+    "id": "New task status",
+    "translation": "New task status"
+  },
+  {
+    "id": "api.task.status_changed",
+    "translation": "{{ .SenderName }} changed the task ({{ .TaskName }}) status"
+  },
+  {
+    "id": "The task now in archive",
+    "translation": "The task is now in archive"
+  },
+  {
+    "id": "api.task.archived",
+    "translation": "{{ .SenderName }} moved the task ({{ .TaskName }}) in archive"
+  },
+  {
+    "id": "The task now active",
+    "translation": "The task is active now"
+  },
+  {
+    "id": "api.task.unarchived",
+    "translation": "{{ .SenderName }} recovered the task ({{ .TaskName }}) from archive"
+  },
+  {
+    "id": "The task was deleted",
+    "translation": "The task has been deleted"
+  },
+  {
+    "id": "api.task.deleted",
+    "translation": "{{ .SenderName }} deleted your task ({{ .TaskName }})"
+  },
+  {
+    "id": "The task was changed",
+    "translation": "The task has been changed"
+  },
+  {
+    "id": "api.task.changed",
+    "translation": "{{ .SenderName }} modified the task ({{ .TaskName }})"
+  },
+  {
+    "id": "api.share.message",
+    "translation": "Collections App: New message."
+  },
+  {
+    "id": "api.share.message",
+    "translation": "New message from {{ .SenderName }}: {{ .Message }}"
+  },
+  {
+    "id": "api.share.media",
+    "translation": "{{ .SenderName }} has shared a media file with you"
+  },
+  {
+    "id": "api.share.object",
+    "translation": "{{ .SenderName }} has shared an object with you"
+  },
+  {
+    "id": "api.auth.confirm_email.subject",
+    "translation": "Collections App: Confirm your email."
+  },
+  {
+    "id": "api.auth.confirm_email.title",
+    "translation": "Please confirm your email."
+  },
+  {
+    "id": "api.auth.confirm_email.button",
+    "translation": "Confirm"
+  },
+  {
+    "id": "api.auth.confirm_email.footer.info",
+    "translation": "If you didn't make this request, you can ignore this email."
+  },
+  {
+    "id": "api.auth.reset_password.subject",
+    "translation": "Collections App: Reset password."
+  },
+  {
+    "id": "api.auth.reset_password.title",
+    "translation": "Please visit this url to reset your password."
+  },
+  {
+    "id": "api.auth.reset_password.button",
+    "translation": "Reset password"
+  },
+  {
+    "id": "api.auth.reset_password.footer.info",
+    "translation": "If you didn't make this request, you can ignore this email."
+  },
+  {
+    "id": "api.invite_by_email.subject",
+    "translation": "Collections App: You are invited to the team."
+  },
+  {
+    "id": "api.invite_by_email.title",
+    "translation": "{{ .SenderName }} invited you to the team. Click on the button below to continue registration."
+  },
+  {
+    "id": "api.invite_by_email.body.button",
+    "translation": "Join Team"
+  },
+  {
+    "id": "api.invite_by_email.body.extra_info",
+    "translation": "Collections App is an innovative platform designed for the world of collecting and relationship management."
+  },
+  {
+    "id": "api.invite.new.subject",
+    "translation": "Collections App: New team invites you."
+  },
+  {
+    "id": "api.invite.new.title",
+    "translation": "{{ .SenderName }} has invited you to the team!"
+  },
+  {
+    "id": "api.invite.accepted.subject",
+    "translation": "Collections App: The invite was accepted."
+  },
+  {
+    "id": "api.invite.accepted.title",
+    "translation": "{{ .SenderName }} has accepted your invite!"
+  },
+  {
+    "id": "api.invite.rejected.subject",
+    "translation": "Collections App: The invite was rejected."
+  },
+  {
+    "id": "api.invite.rejected.title",
+    "translation": "{{ .SenderName }} has rejected your invite!"
+  },
+  {
+    "id": "api.invite.cancelled.subject",
+    "translation": "Collections App: The invite was cancelled."
+  },
+  {
+    "id": "api.invite.cancelled.title",
+    "translation": "{{ .SenderName }} has cancelled your invite!"
+  },
+  {
+    "id": "api.footer.info",
+    "translation": "If you have any questions you can contact us at support@collectionsapp.ru"
+  },
+  {
+    "id": "api.share.subject",
+    "translation": "Collections App: New message."
+  }
+]

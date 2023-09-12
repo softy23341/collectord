@@ -1,0 +1,294 @@
+[
+  {
+    "id": "api.messenger.dialog.empty_message",
+    "translation": "{{ .SenderName }} прислал(а) Вам сообщение"
+  },
+  {
+    "id": "api.messenger.dialog.object_message",
+    "translation": "{{ .SenderName }} прислал(а) Вам объект"
+  },
+  {
+    "id": "api.messenger.dialog.photo_message",
+    "translation": "{{ .SenderName }} прислал(а) Вам фото"
+  },
+  {
+    "id": "api.messenger.dialog.document_message",
+    "translation": "{{ .SenderName }} прислал(а) Вам документ"
+  },
+  {
+    "id": "api.messenger.dialog.video_message",
+    "translation": "{{ .SenderName }} прислал(а) Вам видео"
+  },
+  {
+    "id": "New chat created",
+    "translation": "Создан новый чат"
+  },
+  {
+    "id": "api.messenger.dialog.new_invite",
+    "translation": "{{ .SenderName }} пригласил(а) Вас в команду"
+  },
+  {
+    "id": "Your invite has been accepted",
+    "translation": "Ваше приглашение принято"
+  },
+  {
+    "id": "Your invite has been rejected",
+    "translation": "Ваше приглашение отклонено"
+  },
+  {
+    "id": "Your invite has been cancelled",
+    "translation": "Ваше приглашение отменено"
+  },
+  {
+    "id": "api.messenger.dialog.task.created_assigned_to_you",
+    "translation": "Задача '{{ .TaskName }}' создана и поручена Вам"
+  },
+  {
+    "id": "api.messenger.dialog.task.status_changed",
+    "translation": "Статус задачи '{{ .TaskName }}' изменен на: {{ .TaskStatus }}"
+  },
+  {
+    "id": "api.messenger.dialog.task.assigned_to_you",
+    "translation": "Задача '{{ .TaskName }}' поручена Вам"
+  },
+  {
+    "id": "api.messenger.dialog.task.assigned_to_user",
+    "translation": "Задача '{{ .TaskName }}' поручена другому пользователю"
+  },
+  {
+    "id": "api.messenger.dialog.task.archived",
+    "translation": "Задача '{{ .TaskName }}' перенесена в архив"
+  },
+  {
+    "id": "api.messenger.dialog.task.unarchived",
+    "translation": "Задача '{{ .TaskName }}' разархивирована"
+  },
+  {
+    "id": "api.messenger.dialog.task.changed",
+    "translation": "Задача '{{ .TaskName }}' изменена"
+  },
+  {
+    "id": "api.messenger.dialog.task.removed",
+    "translation": "Задача '{{ .TaskName }}' удалена"
+  },
+  {
+    "id": "api.messenger.text",
+    "translation": "{{ .SenderName }} прислал сообщение в чат {{ .ChatName }}"
+  },
+  {
+    "id": "api.messenger.direct_text",
+    "translation": "{{ .SenderName }} в {{ .ChatName }}: {{ .Message }}"
+  },
+  {
+    "id": "api.messenger.media.photo",
+    "translation": "{{ .SenderName }} прислал(а) фото в чат {{ .ChatName }}"
+  },
+  {
+    "id": "api.messenger.media.document",
+    "translation": "{{ .SenderName }} прислал(а) документ в чат {{ .ChatName }}"
+  },
+  {
+    "id": "api.messenger.media.video",
+    "translation": "{{ .SenderName }} прислал(а) видео в чат {{ .ChatName }}"
+  },
+  {
+    "id": "api.messenger.chat.created",
+    "translation": "{{ .SenderName }} пригласил Вас в чат {{ .ChatName }}"
+  },
+  {
+    "id": "api.messenger.chat.title_changed",
+    "translation": "{{ .SenderName }} изменил имя чата {{ .ChatName }}"
+  },
+  {
+    "id": "api.messenger.chat.avatar_changed",
+    "translation": "{{ .SenderName }} изменил фото чата {{ .ChatName }}"
+  },
+  {
+    "id": "api.messenger.chat.you_invited",
+    "translation": "{{ .SenderName }} пригласил(а) Вас в чат {{ .ChatName }}"
+  },
+  {
+    "id": "api.messenger.chat.user_invited",
+    "translation": "{{ .SenderName }} пригласил(а) {{ .UserName }} в чат {{ .ChatName }}"
+  },
+  {
+    "id": "api.messenger.chat.you_kicked",
+    "translation": "{{ .SenderName }} удалил(а) Вас из чата {{ .ChatName }}"
+  },
+  {
+    "id": "api.messenger.chat.user_left",
+    "translation": "{{ .SenderName }} покинул(а) чат {{ .ChatName }}"
+  },
+  {
+    "id": "api.messenger.chat.user_kicked",
+    "translation": "{{ .SenderName }} удалил(а) {{ .UserName }} из чата {{ .ChatName }}"
+  },
+  {
+    "id": "New task for you",
+    "translation": "Новая задача для Вас"
+  },
+  {
+    "id": "api.task.on_you.title",
+    "translation": "{{ .SenderName }} поручил(а) Вам новую задачу ({{ .TaskName }})!"
+  },
+  {
+    "id": "The task is not on you now",
+    "translation": "Задача не поручена Вам"
+  },
+  {
+    "id": "api.task.not_on_you.title",
+    "translation": "{{ .SenderName }} удалил(а) задачу: {{ .TaskName }}"
+  },
+  {
+    "id": "The task is on you",
+    "translation": "Задача поручена Вам"
+  },
+  {
+    "id": "api.task.assigned_on_you",
+    "translation": "{{ .SenderName }} поручил(а) Вам задачу ({{ .TaskName }})!"
+  },
+  {
+    "id": "New task status",
+    "translation": "Новый статус задачи"
+  },
+  {
+    "id": "api.task.status_changed",
+    "translation": "{{ .SenderName }} изменил(а) статус задачи ({{ .TaskName }})"
+  },
+  {
+    "id": "The task now in archive",
+    "translation": "Задача находится в архиве"
+  },
+  {
+    "id": "api.task.archived",
+    "translation": "{{ .SenderName }} Переместил(а) задачу ({{ .TaskName }}) в архив"
+  },
+  {
+    "id": "The task now active",
+    "translation": "Задача актуальна на данный момент"
+  },
+  {
+    "id": "api.task.unarchived",
+    "translation": "{{ .SenderName }} восстановил(а) задачу ({{ .TaskName }}) из архива"
+  },
+  {
+    "id": "The task was deleted",
+    "translation": "Задача удалена"
+  },
+  {
+    "id": "api.task.deleted",
+    "translation": "{{ .SenderName }} удалил задачу ({{ .TaskName }})"
+  },
+  {
+    "id": "The task was changed",
+    "translation": "Задача была изменена"
+  },
+  {
+    "id": "api.task.changed",
+    "translation": "{{ .SenderName }} изменил задачу ({{ .TaskName }})"
+  },
+  {
+    "id": "api.share.message",
+    "translation": "Collections App: У Вас новое сообщение."
+  },
+  {
+    "id": "api.share.message",
+    "translation": "У Вас новое сообщение от {{ .SenderName }}: {{ .Message }}"
+  },
+  {
+    "id": "api.share.media",
+    "translation": "{{ .SenderName }} поделился с Вами медиа файлом"
+  },
+  {
+    "id": "api.share.object",
+    "translation": "{{ .SenderName }} поделился с Вами коллекцией"
+  },
+  {
+    "id": "api.auth.confirm_email.subject",
+    "translation": "Collections App: Подтвердите Ваш адрес электронной почты."
+  },
+  {
+    "id": "api.auth.confirm_email.title",
+    "translation": "Пожалуйста подтвердите свою электронную почту."
+  },
+  {
+    "id": "api.auth.confirm_email.button",
+    "translation": "Подтвердить"
+  },
+  {
+    "id": "api.auth.confirm_email.footer.info",
+    "translation": "Если Вы не создавали данный запрос, то можете проигнорировать это письмо."
+  },
+  {
+    "id": "api.auth.reset_password.subject",
+    "translation": "Collections App: Восстановление пароля."
+  },
+  {
+    "id": "api.auth.reset_password.title",
+    "translation": "Пожалуйста, перейдите по этой ссылке, чтобы сбросить пароль."
+  },
+  {
+    "id": "api.auth.reset_password.button",
+    "translation": "Восстановить"
+  },
+  {
+    "id": "api.auth.reset_password.footer.info",
+    "translation": "Если Вы не создавали данный запрос, то можете проигнорировать это письмо."
+  },
+  {
+    "id": "api.invite_by_email.subject",
+    "translation": "Collections App: Вы приглашены в команду."
+  },
+  {
+    "id": "api.invite_by_email.title",
+    "translation": "{{ .SenderName }} пригласил Вас в команду. Нажмите кнопку ниже, чтобы продолжить регистрацию."
+  },
+  {
+    "id": "api.invite_by_email.body.button",
+    "translation": "Присоединиться к команде"
+  },
+  {
+    "id": "api.invite_by_email.body.extra_info",
+    "translation": "Collections App –  это инновационная платформа, предназначенная для размещения предметов коллекционирования с целью общения и взаимодействия между коллекционерами и экспертами рынка."
+  },
+  {
+    "id": "api.invite.new.subject",
+    "translation": "Collections App: Новая команда приглашает Вас."
+  },
+  {
+    "id": "api.invite.new.title",
+    "translation": "{{ .SenderName }} пригласил Вас в команду!"
+  },
+  {
+    "id": "api.invite.accepted.subject",
+    "translation": "Collections App: Приглашение принято."
+  },
+  {
+    "id": "api.invite.accepted.title",
+    "translation": "{{ .SenderName }} принял Ваше приглашение!"
+  },
+  {
+    "id": "api.invite.rejected.subject",
+    "translation": "Collections App: Приглашение было отклонено."
+  },
+  {
+    "id": "api.invite.rejected.title",
+    "translation": "{{ .SenderName }} отклонил Ваше приглашение!"
+  },
+  {
+    "id": "api.invite.cancelled.subject",
+    "translation": "Collections App: Приглашение отменено."
+  },
+  {
+    "id": "api.invite.cancelled.title",
+    "translation": "{{ .SenderName }} отменил Ваше приглашение!"
+  },
+  {
+    "id": "api.footer.info",
+    "translation": "Если у Вас есть какие-либо вопросы, Вы можете связаться с нами по адресу support@collectionsapp.ru"
+  },
+  {
+    "id": "api.share.subject",
+    "translation": "Collections App: У Вас новое сообщение"
+  }
+]

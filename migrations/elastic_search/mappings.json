@@ -1,0 +1,73 @@
+{
+  "mappings": {
+    "object": {
+      "_all": { "enabled": false  },
+      "properties": {
+        "id": {
+	  "type": "long"
+	},
+        "collection_id": {
+	  "type": "long"
+	},
+        "root_id": {
+	  "type": "long"
+	},
+	"name": {
+	  "type": "string",
+          "fields": {
+            "raw": {
+              "type":  "string",
+              "index": "not_analyzed"
+            }
+          }
+	},
+	"description": {
+	  "type": "string"
+	},
+	"root_id_number": {
+	  "type": "string"
+	},
+	"materials": {
+	  "type": "long"
+	},
+	"actors": {
+	  "type": "long"
+	},
+	"first_actor_id": {
+	  "type": "long"
+	},
+	"first_actor_name": {
+	  "type": "string",
+          "fields": {
+            "raw": {
+              "type":  "string",
+              "index": "not_analyzed"
+            }
+          }
+	},
+	"badges": {
+	  "type": "long"
+	},
+	"origin_locations": {
+	  "type": "long"
+	},
+	"statuses": {
+	  "type": "long"
+	},
+	"production_date_interval_id": {
+	  "type": "long"
+	},
+	"production_date_interval_from": {
+	  "type": "long"
+	},
+	"production_date_interval_to": {
+	  "type": "long"
+	},
+	"update_time": {
+          "type":   "date",
+	  "format": "basic_date_time_no_millis"
+	}
+      }
+    }
+  }
+}
