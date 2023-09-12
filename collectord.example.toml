@@ -1,0 +1,50 @@
+[rabbit.one]
+    url = "amqp://guest:guest@localhost:5672/"
+[pg.one]
+    host            = "127.0.0.1"
+    user            = "collector_app"
+    db              = "collector_development"
+    password        = "collectordevpassstrong"
+    max_connections = 10
+[elastic_search.one]
+    url = "http://127.0.0.1:9200"
+[filer.swift]
+    type = "swift"
+
+    identity_endpoint_URL = "https://XXX.com/"
+    container = "container-name"
+    username = "username"
+    password = "password"
+    base_URL = "/base-url/"
+    region = "common"
+
+    base_name_prefix = "dev"
+[filer.fs]
+    type = "fs"
+    base_name_prefix = "dev"
+    base_path = "/collector-uploads/files/"
+    base_URL = "/files/"
+[server]
+    # port = 7000 TBD; use env variable $PORT
+    i18n_path = "./i18n"
+    template_path = "./email-templates"
+    [server.DBM]
+        pg_ref ="one"
+    [server.event_service] # websockets
+        ws_port = 7001
+    [server.cleaver_client]
+        rabbit_ref = "one"
+    [server.filer_client]
+        filer_ref = "fs"
+    [server.search_client]
+        elastic_search_ref = "one"
+        object_index = "object_dev"
+    [server.pusher_client]
+        rabbit_ref = "one"
+    [server.mail_client]
+        server_name = "email-smtp.XXX.com"
+        port = 25
+        username = "XXX"
+        password = "YYY"
+    [server.redis]
+        url = "amqp://guest:guest@localhost:5672/"
