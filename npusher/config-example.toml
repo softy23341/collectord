@@ -1,0 +1,49 @@
+[provider.aws]
+    region = "us-west-2"
+    aws_access_key_id = ""
+    aws_secret_access_key = ""
+    [provider.aws.platform_arns]
+        APNS         = "arn:aws:sns:region:XXX:app/APNS/XXX"
+        APNS_SANDBOX = "arn:aws:sns:region:XXX:app/APNS_SANDBOX/XXX"
+        GCM          = "arn:aws:sns:region:XXX:app/GCM/XXX"
+    [provider.aws.storage]
+        type = "memory"
+    # [provider.aws.storage]
+    #     type          = "redis"
+    #     addr          = "localhost:6379"
+    #     #
+    #     # optional params
+    #     # all timeouts in seconds
+    #     network       = "tcp"
+    #     password      = ""
+    #     db            = ""
+    #     dial_timeout  = 0
+    #     read_timeout  = 0
+    #     write_timeout = 0
+    #     pool_size     = 0
+    #     pool_timeout  = 0
+    #     idle_timeout  = 0
+    #     max_retries   = 0
+    # [provider.aws.storage]
+    #     type           = "redis_sentinel"
+    #     master_name    = "mymaster"
+    #     sentinel_addrs = ["localhost:26379"]
+    #     #
+    #     # optional params
+    #     # all timeouts in seconds
+    #     password      = ""
+    #     db            = ""
+    #     dial_timeout  = 0
+    #     read_timeout  = 0
+    #     write_timeout = 0
+    #     pool_size     = 0
+    #     pool_timeout  = 0
+    #     idle_timeout  = 0
+    #     max_retries   = 0
+
+
+[services.rabbitmq]
+    servers    = ["amqp://guest:guest@localhost:5672/"]
+    prefetch   = 32 # how many jobs prefetch from queue
+    taskttl    = 120 # seconds
+    queue_name = "np-send.json"
